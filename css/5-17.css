@@ -1,0 +1,12 @@
+#wrapper{
+  /*描画されるテキストを中央寄せにする*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #particle{
+    width: 80%;
+    height: 100vh;
+    vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
+  }
