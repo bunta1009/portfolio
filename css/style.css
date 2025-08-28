@@ -20,6 +20,10 @@ img {
   border-style: none;
 }
 
+video {
+  max-width: 100%;
+}
+
 .pc-only {
   display: block;
 }
